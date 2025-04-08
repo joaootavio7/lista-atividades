@@ -10,4 +10,4 @@ let pi = 3.14159;
 let raio = parseInt(teclado("Digite o Raio da lata: "));
 let altura = parseInt(teclado("Digite a Altura da lata:  "));
 let volume = pi * (raio * raio) * altura;
-console.log("O Volume da Lata \u00E9 " + volume);
+console.log(`O Volume da Lata ${volume}`);
