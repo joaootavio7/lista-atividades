@@ -45,6 +45,6 @@ if (classificao <= 2) {
   console.log(`Pessoa Suspeita`)
 } else if (classificao >= 3 && classificao <= 4) {
   console.log(`Pessoa Cúmplice`)
-} else if (classificao == 5) {
+} else (classificao == 5) {
   console.log(`Pessoa é o Assasino`)
 }

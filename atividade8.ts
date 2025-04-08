@@ -10,18 +10,18 @@ let teclado = require(`prompt-sync`)();
 let angulo = parseInt(teclado(`Digite o valor do ângulo:`));
 let angulo2 = parseInt(teclado(`Digite o valor do segundo ângulo:`));
 let angulo3 = parseInt(teclado(`Digite o valor do terceiro ângulo:`));
-if (angulo == 90) {
-    console.log(`O Triângulo é Retângulo`);
-  } else if (angulo2 == 90) 
-    console.log(`O Triângulo é Retângulo`);
-    else if (angulo3 == 90)
-    console.log(`O Triângulo é Retângulo`);
-  else if (angulo > 90)
-    console.log(`O Triângulo é Obtusângulo`)
-  else if (angulo2 > 90)
-    console.log(`O Triângulo é Obtusângulo`)
-  else if (angulo3 > 90)
-    console.log(`O Triângulo é Obtusângulo`)
-  else (angulo < 90 && angulo2 < 90 && angulo3 < 90)
-    console.log(`O Triângulo é Acutângulo`)
 
+if (angulo == 90) {
+  console.log(`O Triângulo é Retângulo`);
+} else if (angulo2 == 90) 
+  console.log(`O Triângulo é Retângulo`);
+  else if (angulo3 == 90)
+  console.log(`O Triângulo é Retângulo`);
+else if (angulo > 90)
+  console.log(`O Triângulo é Obtusângulo`)
+else if (angulo2 > 90)
+  console.log(`O Triângulo é Obtusângulo`)
+else if (angulo3 > 90)
+  console.log(`O Triângulo é Obtusângulo`)
+else (angulo < 90 && angulo2 < 90 && angulo3 < 90)
+  console.log(`O Triângulo é Acutângulo`)
